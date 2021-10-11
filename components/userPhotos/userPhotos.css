@@ -1,0 +1,54 @@
+
+.namePlaceholder {
+    padding: 5px 0 10px 0;
+    text-decoration: none;
+    color: rgb(46, 42, 42);
+}
+
+.comment-container {
+    margin: 0 20px 20px 0;
+    width: 50%;
+    min-width: 400px;
+}
+
+.card,
+.card-holder {
+    margin: 0 20px 20px 0;
+    width: 50%;
+    min-width: 400px;
+}
+
+.input {
+    background-color: #d8eff0;
+}
+
+.mentions__suggestions__list {
+    background-color: white;
+    font-size: 12pt;
+}
+  
+.mentions__suggestions__item {
+    border-bottom: 1px solid rgb(168, 167, 167);
+    padding: 6px 15px;
+}
+  
+.mentions__suggestions__item--focused {
+    background-color: #d8eff0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timestamp {
+    color: gray;
+}
+
+.divider {
+    margin: 30px 0;
+}
+
+
+

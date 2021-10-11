@@ -1,0 +1,18 @@
+
+.form-container, .register-form {
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.register-form {
+    margin-bottom: 50px;
+}
+
+.dialog-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

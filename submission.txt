@@ -1,0 +1,71 @@
+Project #8 - Submission form
+
+Please fill in this form and submit it with your project #8.
+
+Enter no more than 5 user stories that you did for the assignment that you would like to be
+graded on. For each story include the following information:
+
+Story number and name:
+Story points:
+Brief description to see the story in action:
+
+Total Story Points: 
+
+Marketing Video URL (ensure permissions are set to public viewing):
+
+Is it OK with you if we post your Marketing Video URL on the class discussion forum? 
+
+Any special instructions for Grading (should be easy to run app from new machine): 
+
+
+************************************ Example *******************
+* As an example for if you did only story 5 your file would look like:
+* 
+* Story number and name:  5 - Activity Feed
+* Story points:  4
+* Brief description to see the story in action:
+* Push the button labeled Activity on the toolbar and view the 10 most recent activities of the
+* current user.
+* 
+* Total Story Points: 4
+* 
+* Marketing Video URL (ensure permissions are set to public viewing): http://www.youtube.com ---
+* 
+* Is it OK with you if we post your Marketing Video URL on the class discussion forum? Yes
+* 
+* Instructions for Grading (should be easy to run app from new machine): None
+
+************************************ Story One *******************
+* Story number and name:  1 - Extend user profile detail with usage
+* Story points:  3
+* Brief description to see the story in action:
+* This story extends the user detail page with two features - one shows the most commented photo and its number of comments, and the other shows the most recently
+* uploaded photo of the user and time time of upload. Both features allow you to click on the image - this will take you to 
+* the page that shows all of the photos of that user. If the user has no photos uploaded yet, user profile will not show photo details.
+
+************************************ Story Two *******************
+* Story number and name: @mentions in comments
+* Story points:  6
+* Brief description to see the story in action: 
+* Type '@' to mention other users on the web app. Dropdown options are shown in the
+* comment field as you type. You can then select a name from one of the options. If you enter the markup raw text
+* manually, for example, '@[foo](abcd)', react-mentions will still recognize this as a mention in the comment textfield.
+* However, once you enter, this mention will be rendered invalid and will show up in the published comment as 
+* raw text '@[foo](abcd)'. The user details page is also extended to show the photos that mention the respective user, along with 
+* the author of the photo, and you can click on these photos to go directly to the location of it (react-router-hash-link fragments are used).
+
+************************************ Story Three *******************
+* Story number and name: Activity Feed
+* Story points:  4
+* Brief description to see the story in action: 
+* Push the button that says 'Activities' in the the toolbar. This will take you to a page that lists the top 5 recent activites. Activities 
+* include logging ins/outs, new registers, photo uploads, and new comments. You can refresh the activities by clicking on 'Refresh'.
+
+* Total Story Points: 13 
+* 
+* Marketing Video URL (ensure permissions are set to public viewing): https://youtu.be/X7yAoOcIoNg
+* 
+* Is it OK with you if we post your Marketing Video URL on the class discussion forum? Yes
+* 
+* Instructions for Grading (should be easy to run app from new machine): 
+* Modules can be fetched by running the following command in the project8 directory: `npm install`

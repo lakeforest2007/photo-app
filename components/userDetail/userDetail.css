@@ -1,0 +1,42 @@
+.MuiTypography-body2 {
+    padding: 10px 0;
+}
+
+ .MuiTypography-body2 > b {
+    font-weight: normal;
+    display: block;
+    color: rgb(158, 158, 158);
+}
+
+.mentioned-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.thumbnail-box {
+    width: 20%;
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.userHdr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.recent-container,
+.popular-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 20px 0px;
+    width: 500px;
+}
+
+.popular-container {
+    margin: 0 20px 20px 0px;
+}

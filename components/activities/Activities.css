@@ -1,0 +1,20 @@
+.acts-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.activity-box{
+    margin: 20px;
+}
+
+.act-img {
+    width: 25%;
+    margin: 10px 0px;
+}
+
+.activity-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
