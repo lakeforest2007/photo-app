@@ -11,8 +11,10 @@ This was a 3-week long, individual project that taught me a lot about how to set
 ## Application architecture
 
 - Frontend frameworks/libraries: ReactJS, Material-UI
-- Backend frameworks: MongoDB, Express.js/Node.js
+- Backend frameworks: MongoDB, Node.js with Express
   (note: initially, API calls were handled by AJAX)
+
+I used ReactJS because I wanted to create reusable UI components since the project requires that it is a single-page web application. A tradeoff using React is that page loading might be slower than if we were to use pure HTML/CSS. I used Node.js because the open-source script has less overhead than other frameworks. Also, Node.js handles client requests asynchronously, suitable for data-intensive applications like this project. I used MongoDB because it provides a easy way to store data models in a JSON format, which can be then mapped to native objects with Javascript.
 
 ## How you can interact with the project
 
@@ -27,10 +29,13 @@ This was a 3-week long, individual project that taught me a lot about how to set
 If I had more time I would:
 - Use feature branches
 - Have pop-up alerts be integrated into the actual UI
-- Enhance app security with salted passwords 
+- Use salted passwords for better security
+- Enhance app speed with lazy loading photos/images
 - Write my own unit tests
 - Deploy the app to Heroku
 
 ## Lessons learned
 
+- Must validate session state in the backend in case of man in the middle attacks
+- Check user input errors as early and as frequently as possible - this provides a better user experience
 
