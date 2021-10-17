@@ -1,7 +1,7 @@
 # Photo-sharing Web Application
 
 ## App Walkthrough
-https://www.youtube.com/watch?v=X7yAoOcIoNg&ab_channel=JiahongWang
+Watch this to see key features of the app: https://www.youtube.com/watch?v=X7yAoOcIoNg&ab_channel=JiahongWang
 
 ## Project overview
 
@@ -12,6 +12,7 @@ This was a 3-week long, individual project that taught me a lot about how to set
 
 - Frontend frameworks/libraries: ReactJS, Material-UI
 - Backend frameworks: MongoDB, Express.js/Node.js
+  (note: initially, API calls were handled by AJAX)
 
 ## How you can interact with the project
 
@@ -21,17 +22,15 @@ This was a 3-week long, individual project that taught me a lot about how to set
 4. Load the photo app dataset into the data server with the command `node loadDatabase.js`
 5. And start the Node.js web server with `node webServer.js` 
 
-## Suggestions for improvements
+## Future stories
 
 If I had more time I would:
 - Use feature branches
-- 
+- Have pop-up alerts be integrated into the actual UI
+- Enhance app security with salted passwords 
+- Write my own unit tests
 - Deploy the app to Heroku
 
-## Lessons learned:
+## Lessons learned
 
-
-
-If I redid this project I would:
-- 
 
