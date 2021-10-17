@@ -1,5 +1,8 @@
 # Photo-sharing Web Application
 
+## App Walkthrough
+https://www.youtube.com/watch?v=X7yAoOcIoNg&ab_channel=JiahongWang
+
 ## Project overview
 
 My goal was to develop a full-stack web application that allows users to upload and share photos and directly interact with other users through commenting and mentions. 
@@ -32,4 +35,3 @@ If I had more time I would:
 If I redid this project I would:
 - 
 
-## App Walkthrough: https://www.youtube.com/watch?v=X7yAoOcIoNg&ab_channel=JiahongWang
