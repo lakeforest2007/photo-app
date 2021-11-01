@@ -36,6 +36,6 @@ If I had more time I would:
 
 ## Lessons learned
 
-- Must validate session state in the backend in case of man in the middle attacks
+- Must validate session state in both the frontend and the backend in case of man in the middle attacks
 - Check user input errors as early and as frequently as possible - this provides a better user experience
 
